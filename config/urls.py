@@ -5,6 +5,7 @@ from config import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('api/urls/', include('shortener.api.urls'), name='urls')
 ]
 
 if settings.DEBUG:

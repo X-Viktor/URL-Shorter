@@ -1,4 +1,3 @@
-import dj_database_url
 import environ
 import os
 from pathlib import Path
@@ -40,6 +39,8 @@ INSTALLED_APPS = [
 
     'debug_toolbar',
     'rest_framework',
+
+    'shortener',
 ]
 
 MIDDLEWARE = [
